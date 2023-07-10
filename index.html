@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Sign Up</h2>
+
+        </div>
+        <form action="action.php" class="form"> 
+            <label for="input">First Name: </label><input type="text" placeholder="Enter your name">
+            <br>
+            <label for="input"> Last Name: </label><input type="text" placeholder="Enter Last name">
+            <br>
+            <label for="input">Screen Name: </label><input type="text" placeholder="Enter screen name...">
+            <br>
+            <label for="input">Enter Date of Birth: </label><input type="date" >
+                <br>
+                <div class="gender">
+                    <label for="input">Gender: <input type="radio" name="gender" >Male</label>
+                    <label for="input"><input type="radio" name="gender" >Female</label>
+                </div>
+           
+            
+            <br>
+            <label for="input">Country: </label>
+                <select name="country" id="country">
+                     
+                    <option value="India">India</option>
+                    <option value="UK">U.K.</option>
+                    <option value="USA">USA</option>
+                    <option value="Itali">Itali</option>
+                    <option value="UAE">UAE</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                </select>
+                <br>
+           
+            <label for="input">Email</label><input type="email" placeholder="Enter E-mail">
+            <br>
+            <label for="input">Phone</label><input type="tel" placeholder="Enter Phone">
+            <br>
+            <label for="input">Password</label><input type="password">
+            <br>
+            <label for="input">Confirm Password</label><input type="password">
+            <br>
+            <div class="checkbox">
+                <input type="checkbox"><label for="input">I agree to the Terms of Use</label>
+            </div>
+            <div class="submit">
+                <button id="submit">Submit</button>
+                <button id="cancel">Cancel</button>
+            </div>
+            
+            
+                
+            
+        </form>
+    </div>
+</body>
+</html>
